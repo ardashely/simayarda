@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Dosis:600,800);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+* {
+    background: #f5f5f5 !important;
+    font-family: 'Play', sans-serif;
+}
+
+.Avatar {
+    margin-top: 16em !important;
+    width: 270px;
+    height: 270px;
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px #000000;
+    
+}
+
+.Avatar:hover {
+    box-shadow: 0px 0px 20px #4b00a0;
+}
+
+.Name {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.VerifedIcon {
+    width: 20px; height: 22px;
+    margin-bottom: 3px;
+}
+
+.Job {
+    text-align: center;
+    font-size: 22px;
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+.Job:hover {
+    opacity: 100%;
+}
+
+.Author {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #7d8285;
+}
+
+.Buttons {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.SingleButton {
+    color: 
+    #fff;
+        background: 
+    rgb(0, 255, 136) !important; outline: 0;
+        border: 0; 
+        padding: 12px 25px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 0.4em;
+        transition: 0.3s;
+}
+
+.SingleButton:hover {
+    box-shadow: 0px 0px 20px rgb(0, 255, 136) !important;
+}
+.hayır {
+    color: 
+    #fff;
+        background: 
+    rgb(255, 0, 0) !important; outline: 0;
+        border: 0; 
+        padding: 12px 25px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 0.4em;
+        transition: 0.3s;
+}
+
+.hayır:hover {
+    opacity: 0%;
+}
+.Footer {
+    text-align: center;
+    opacity: 50%;
+    font-size: 12px;
+    margin-top: 26em;
+}
+
+.FooterIcon {
+    font-size: 14px;
+}
+
+::-moz-selection{
+    background: #3fd197;
+    color:#fff;
+}
+
+::selection {
+    background:#3fd197;
+    color:#fff;
+}
+
+@media (max-width:800px) {
+    .Footer {
+        margin-top: 12em;
+    } .Author {
+        font-size: 18px;
+        padding: 14px;
+    }
+}
